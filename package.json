@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watch 'npm run upload' . --wait=0.1",
     "upload": "ldcli upload"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "ldcli": "0.0.1",
+    "watch": "^1.0.2"
+  }
 }

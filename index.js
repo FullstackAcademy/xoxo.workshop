@@ -12,8 +12,11 @@ module.exports = function() {
       .Action({ name: "Reducer", slug: "reducer", draftMode: false, visibilityLevel: 2 })
       .Action({ name: "Try it out!", slug: "try-it-out", draftMode: false, visibilityLevel: 2 })
     .Concept({ name: "Feature: who won?", slug: "feature-who-won", draftMode: false })
-
+      .Action({ name: "Detecting end of game", slug: "detecting-end-of-game", draftMode: false, visibilityLevel: 2 })
+      .Action({ name: "Streaks", slug: "streaks", draftMode: false, visibilityLevel: 2 })
+      .Action({ name: "Refactor reducers", slug: "refactor-reducers", draftMode: false, visibilityLevel: 2 })      
+      .Action({ name: "Winner State", slug: "winner-state", draftMode: false, visibilityLevel: 2 })
+      .Action({ name: "Ending the game", slug: "ending-the-game", draftMode: false, visibilityLevel: 2 })
 
   return workshop;
-
 }

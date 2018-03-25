@@ -22,10 +22,10 @@ const full = empty
   .set('hello', 'world')
   .set('x', 123)
 
-console.log(full)
+console.log('full=', full)
 
 // The original map is unchancged.
-console.log(empty)
+console.log('empty=', empty)
 </tonic>
 
 This behavior is perfect for Redux states, which are meant to be completely
@@ -54,7 +54,7 @@ this:
 ```
 
 <guide>
-Consider: how can represent the xoxo board with an immutable map?
+You've considered how we can represent an xoxo board with an immutable map.
 </guide>
 
 # Representing moves
@@ -65,19 +65,21 @@ use with `getIn` and `setIn`.
 
 An empty board will be a Map with no entries.
 
-```js
+<tonic>
 const {Map} = require('immutable')
 let board = Map()
-```
+</tonic>
 
 When a player makes a move, we'll want to create a new board at
 that coordinate. For example, if X moves to row 1, col 1, we'll
 compute the new board as:
 
-```js
-board.setIn([1, 1], 'X')
-```
+<tonic>
+const {Map} = require('immutable')
+let board = Map()
+board = board.setIn([1, 1], 'X')
+</tonic>
 
 We'll need to store this information in the `MOVE` action.
 
-<guide>Consider what the `MOVE` action will look like.</guide>
+<guide>You've considered what the `MOVE` action will look like</guide>

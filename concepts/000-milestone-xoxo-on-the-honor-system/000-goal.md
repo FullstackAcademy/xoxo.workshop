@@ -51,7 +51,7 @@ XOO
 ? O's move (row,col):
 ```
 
-X has wons the game. Our first version doesn't detect this—X's player has to notice
+X has won the game. Our first version doesn't detect this—X's player has to notice
 and start gloating.
 
 We'll use [Redux](https://redux.js.org) to manage the state of the board.

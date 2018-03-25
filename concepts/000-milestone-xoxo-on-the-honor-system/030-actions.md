@@ -14,4 +14,4 @@ To ensure that our move actions have the appropriate form, we'll
 write an *action creator* for moves. This is a function that takes 
 and return an action representing that player marking that position.
 
-<guide>Write the move action creator in [`game/index.js`](./game/index.js)</guide>
+<guide>You've written the move action creator in [`game/index.js`](./game/index.js)</guide>
