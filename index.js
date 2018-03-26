@@ -8,6 +8,7 @@ module.exports = function() {
       .Action({ name: "Goal", slug: "goal", draftMode: false, visibilityLevel: 2 })
       .Action({ name: "Redux", slug: "redux", draftMode: false, visibilityLevel: 2 })
       .Action({ name: "State", slug: "state", draftMode: false, visibilityLevel: 2 })
+      .Action({ name: "Board", slug: "board", draftMode: false, visibilityLevel: 2 })
       .Action({ name: "Actions", slug: "actions", draftMode: false, visibilityLevel: 2 })
       .Action({ name: "Reducer", slug: "reducer", draftMode: false, visibilityLevel: 2 })
       .Action({ name: "Try it out!", slug: "try-it-out", draftMode: false, visibilityLevel: 2 })

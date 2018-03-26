@@ -5,10 +5,10 @@ with their marker (X or O).
 The action will need to tell us which player is moving, and
 where they're moving to:
 
-  * `MOVE`
-    - type: "MOVE"
-    - position: [row: 0..2, col: 0..2]
-    - player: 'X' or 'O'
+* `MOVE`
+  - type: "MOVE"
+  - position: [row: 0..2, col: 0..2]
+  - player: 'X' or 'O'
 
 To ensure that our move actions have the appropriate form, we'll
 write an *action creator* for moves. This is a function that takes 

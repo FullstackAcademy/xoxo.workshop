@@ -4,17 +4,17 @@ Today, we're going to make [tic-tac-toe](https://en.wikipedia.org/wiki/Tic-tac-t
 The starting point is [here](https://github.com/FullstackAcademy/xoxo).
 
 Our first version will be a terminal app. Players will be able to:
-  - Take turns making moves
-  - See the board printed after each move
+- Take turns making moves
+- See the board printed after each move
 
 We *won't* have these features:
-  - The game won't keep players from making invalid moves.
-    - In particular, nothing will prevent players from moving into
-      a square that's already occupied.
-  - The game won't know when it's over—it's up to players to notice
-    who won.
-  - We won't have AI.
-  - We won't have a web frontend.
+- The game won't keep players from making invalid moves.
+  - In particular, nothing will prevent players from moving into
+    a square that's already occupied.
+- The game won't know when it's over—it's up to players to notice
+  who won.
+- We won't have AI.
+- We won't have a web frontend.
 
 We'll add these features later. Let's put together a simple game, played on
 the honor system, first.
