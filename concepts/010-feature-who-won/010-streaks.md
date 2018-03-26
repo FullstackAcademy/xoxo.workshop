@@ -5,11 +5,11 @@ some set of coordinates are completely owned by a single player.
 
 I wrote a `streak` function, which takes a board and any number of coordinates:
 
-```js
+<tonic>
 function streak(board, firstCoord, ...remainingCoords) {
   // TOOD
 }
-```
+</tonic>
 
 Streak loops over the coordinates.
 

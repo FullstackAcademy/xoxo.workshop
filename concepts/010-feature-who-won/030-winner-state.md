@@ -7,7 +7,7 @@ to figure out what the board is going to look like, then pass that
 new board into `winner` to compute the `winner` state.
 
 <hint title="Solution">
-```js
+<tonic>
 function reducer(state={}, action) {
   const nextBoard = boardReducer(state.board, action)
   const winnerState = winner(nextBoard)
@@ -17,6 +17,5 @@ function reducer(state={}, action) {
     winner: winnerState
   }
 }
-```
 </tonic>
 </hint>

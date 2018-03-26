@@ -17,6 +17,16 @@ module.exports = function() {
       .Action({ name: "Refactor reducers", slug: "refactor-reducers", draftMode: false, visibilityLevel: 2 })      
       .Action({ name: "Winner State", slug: "winner-state", draftMode: false, visibilityLevel: 2 })
       .Action({ name: "Ending the game", slug: "ending-the-game", draftMode: false, visibilityLevel: 2 })
+    .Concept({ name: "Feature: no cheating!", slug: "feature-no-cheating", draftMode: false })
+      .Action({ name: "Detecting errors", slug: "detecting-errors", draftMode: false, visibilityLevel: 2 })
+      .Action({ name: "Error state", slug: "error-state", draftMode: false, visibilityLevel: 2 })
+      .Action({ name: "Report errors", slug: "report-errors", draftMode: false, visibilityLevel: 2 })      
+    .Concept({ name: "Extra Credit: Artificial Intelligence", slug: "artificial-intelligence", draftMode: false })
+      .Action({ name: "Approach", slug: "approach", draftMode: false, visibilityLevel: 2 })
+      .Action({ name: "Moves", slug: "moves", draftMode: false, visibilityLevel: 2 })
+      .Action({ name: "Score", slug: "score", draftMode: false, visibilityLevel: 2 })
+      .Action({ name: "Play", slug: "play", draftMode: false, visibilityLevel: 2 })      
+      .Action({ name: "Rise, robot, rise", slug: "rise-robot-rise", draftMode: false, visibilityLevel: 2 })
 
   return workshop;
 }

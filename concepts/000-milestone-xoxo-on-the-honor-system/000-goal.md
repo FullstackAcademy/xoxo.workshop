@@ -1,6 +1,8 @@
 Today, we're going to make [tic-tac-toe](https://en.wikipedia.org/wiki/Tic-tac-toe)
 (also called noughts and crosses, or Xs and Os).
 
+The starting point is [here](https://github.com/FullstackAcademy/xoxo).
+
 Our first version will be a terminal app. Players will be able to:
   - Take turns making moves
   - See the board printed after each move

@@ -8,3 +8,7 @@ that gets input.
 Add a third, which prints an appropriate message and exits the game
 when someone wins. You can use `process.exit(0)` to exit the game
 successfully.
+
+You should now be able to play a game and have it exit when someone wins!
+
+You can, however, still cheat. We'll take care of that in the next section.
