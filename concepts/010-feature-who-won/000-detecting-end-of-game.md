@@ -23,7 +23,7 @@ const ongoing = Map()
   .setIn([1, 1], 'O')
 
 const xWins = ongoing
-  .setIn([1, 2], 'X')
+  .setIn([0, 2], 'X')
 
 const oWins = ongoing
   .setIn([0, 0], 'O')

@@ -11,7 +11,7 @@ an `error` property on it, equal to the message returned by `bad`
 <tonic>
 function reducer(state={}, action) {
   const error = bad(state, action)
-  if (error) return Object.assign({}, state, error)
+  if (error) return Object.assign({}, state, {error})
 
   const nextBoard = boardReducer(state.board, action)
   const winnerState = winner(nextBoard)
